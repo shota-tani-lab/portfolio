@@ -37,3 +37,19 @@ footer{
     text-align: center;
     color: rgb(143, 143, 143);
 }
+
+
+.jojo {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: jojo 5s linear infinite;
+}
+
+@keyframes jojo {
+    from {
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
